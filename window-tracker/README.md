@@ -1,12 +1,36 @@
-# React + Vite
+# Window Width Tracker (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that tracks and displays the width of the browser window in real-time. It was built as a practice project to explore the usage of the `useEffect` hook in functional components.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displays the current width of the browser window.
+- Updates dynamically when the window is resized.
+- Demonstrates how to use `useEffect` for setting up and cleaning up event listeners.
 
-## Expanding the ESLint configuration
+## 🧠 What I Practiced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was created to practice and understand the `useEffect` hook in React. Key concepts included:
+
+- Running side effects in functional components.
+- Adding and removing event listeners properly.
+- Cleanup functions to avoid memory leaks.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/window-width-tracker.git
+   cd window-width-tracker
+   npm install
+   npm run dev
+
+## 📸 Preview
+
+![App Screenshot](./public/screenshot.png)

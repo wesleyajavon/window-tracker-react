@@ -26,8 +26,8 @@ This project was created to practice and understand the `useEffect` hook in Reac
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/window-width-tracker.git
-   cd window-width-tracker
+   git clone https://github.com/wesleyajavon/window-width-tracker.git
+   cd window-tracker-react
    npm install
    npm run dev
 
